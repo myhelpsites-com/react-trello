@@ -30,7 +30,7 @@ const Wrapper = styled.div`
   width: 250px;
 `;
 
-const scrollContainerHeight = 250;
+const scrollContainerHeight = 350;
 
 const DropZone = styled.div`
   /* stop the list collapsing when empty */

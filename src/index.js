@@ -7,6 +7,7 @@ import Column from "./column";
 import reorder, { reorderQuoteMap } from "./reorder";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
 import { authorQuoteMap } from "./data";
+import './App.css';
 
 const ParentContainer = styled.div`
   /* height: ${({ height }) => height}; */
@@ -114,6 +115,7 @@ class Board extends Component {
           <Container ref={provided.innerRef} {...provided.droppableProps}>
             {ordered.map((key, index) => (
               <Column
+                className="teste2"
                 key={key}
                 index={index}
                 title={key}
@@ -144,6 +146,8 @@ class Board extends Component {
             }
           `}
         />
+      <div>teste</div>
+
       </React.Fragment>
     );
   }

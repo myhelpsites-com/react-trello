@@ -5,14 +5,15 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@atlaskit/theme": "8.1.2",
-    "@emotion/core": "10.0.10",
-    "@emotion/styled": "10.0.10",
+    "@atlaskit/theme": "^8.1.2",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.3.0",
+    "axios": "^0.25.0",
     "react": "16.8.3",
-    "react-beautiful-dnd": "10.1.1",
+    "react-beautiful-dnd": "^10.1.1",
     "react-dom": "16.8.3",
     "react-scripts": "2.1.8",
-    "styled-components": "4.2.0"
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
