@@ -1,33 +1,45 @@
 {
-  "name": "react-beautiful-dnd-simple-board",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@atlaskit/theme": "^8.1.2",
-    "@emotion/core": "^10.0.10",
-    "@emotion/styled": "^10.3.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "axios": "^0.25.0",
-    "react": "16.8.3",
-    "react-beautiful-dnd": "^10.1.1",
-    "react-dom": "16.8.3",
-    "react-scripts": "2.1.8",
-    "styled-components": "^4.2.0"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
+    "constant": "^1.0.2",
+    "constants": "^0.0.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^12.2.0",
+    "react-dnd": "^15.1.1",
+    "react-dnd-html5-backend": "^15.1.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "uuid": "3.3.3",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
